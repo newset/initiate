@@ -16,6 +16,7 @@ gh-get gpakosz/.tmux
 
 ### delete DS_Store
 sudo find /Users -name ".DS_Store" -depth -exec rm {} \; 
+defaults write com.apple.desktopservices DSDontWriteNetworkStores true
 
 ### pull .zshrc .tmux.conf.local
 
